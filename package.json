@@ -1,0 +1,21 @@
+{
+  "name": "link-game",
+  "version": "1.0.0",
+  "description": "A multiplayer link game built with Node.js",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
